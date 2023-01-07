@@ -11,3 +11,5 @@
 
 string[] firstArray = new string[6] {"Set", "the", "World", "on", "fire", ":-)"};
 string[] finalArray = new string[firstArray.Length];
+
+void FinalArray(string[] firstArray, string[] finalArray)
