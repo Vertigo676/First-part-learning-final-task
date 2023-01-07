@@ -9,5 +9,5 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string[] strings = {"Moscow", "Two", "(\V/)", "man", "-3", "i"};
-var result = strings.Where(s => s.Length <= 3).ToArray();
+string[] firstArray = new string[6] {"Set", "the", "World", "on", "fire", ":-)"};
+string[] finalArray = new string[firstArray.Length];
