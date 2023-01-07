@@ -13,3 +13,14 @@ string[] firstArray = new string[6] {"Set", "the", "World", "on", "fire", ":-)"}
 string[] finalArray = new string[firstArray.Length];
 
 void FinalArray(string[] firstArray, string[] finalArray)
+{
+    int count = 0;
+    for (int i = 0; i < firstArray.Length; i++)
+    {
+    if(firstArray[i].Length <= 3)
+        {
+        finalArray[count] = firstArray[i];
+        count++;
+        }
+    }
+}
