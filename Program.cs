@@ -10,3 +10,4 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 string[] strings = {"Moscow", "Two", "(\V/)", "man", "-3", "i"};
+var result = strings.Where(s => s.Length <= 3).ToArray();
