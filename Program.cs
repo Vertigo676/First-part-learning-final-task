@@ -33,3 +33,6 @@ void PrintFinalArray(string[] array)
     }
     Console.WriteLine();
 }
+
+FinalArray(firstArray, finalArray);
+PrintFinalArray(finalArray);
